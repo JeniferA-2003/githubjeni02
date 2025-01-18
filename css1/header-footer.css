@@ -1,0 +1,365 @@
+
+/**********HEADER**********/
+header, footer{
+    background-color:var(--color1);
+}
+.title{
+    color:var(--color1);
+    background: rgb(87,250,247);
+    background: linear-gradient(62deg, rgba(87,250,247,1) 0%, rgba(233,115,212,1) 100%);
+   
+}
+.logo{
+    height:50px;
+    width:50px;
+    margin: 0px 5px;
+   
+}
+
+.emblem{
+   height:30px;
+   width:25px;
+    margin:1px;
+   
+
+}
+.college-title{
+    font-weight:900;
+    font-size: 6px;
+    cursor:pointer;
+}
+.main-title{
+    font-weight:900;
+    font-size:9px;
+ 
+    color:transparent;
+    background: rgb(11,19,43);
+    background: linear-gradient(90deg, rgba(11,19,43,1) 44%, rgba(215,163,17,1) 47%, rgba(249,249,249,1) 48%, rgba(215,163,17,1) 49%, rgba(11,19,43,1) 53%, rgba(11,19,43,1) 91%);
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size:200% 200%;
+    animation: shine 4s linear infinite;
+   /* text-shadow: 0px 4px 2px rgba(0,0,0,0.29);
+    /*-webkit-text-stroke: 1px var(--color1);*/
+}
+@media screen and (min-width:576px){
+    .logo{
+        height:100px;
+        width:100px;
+    }
+    .emblem{
+        height:70px;
+        width:60px;
+    }
+    .college-title{
+        font-size:18px;
+        font-weight:900;
+    }
+    .main-title{
+        font-size:25px;
+        font-weight:900;
+    }
+}
+.quote{
+    color:var(--color5);
+    padding:15px;
+    font-size:10px;
+  
+}
+.quote b{
+    color:transparent;
+    background: rgb(255,34,187);
+    background: linear-gradient(90deg, rgba(255,34,187,1) 15%, rgba(0,204,255,1) 53%, rgba(34,230,34,1) 88%);
+    background-size:500% 500%;
+    background-clip:text;
+    -webkit-background-clip: text;
+    animation: gradient 2s linear infinite;
+    
+}
+
+
+.nav .nav-item .nav-link{
+    position: relative;
+    color:white;
+    font-size:14px;
+    font-weight:700;
+ 
+    border-bottom: 1px solid var(--color1);
+    border-radius:0;
+    border-color:var(--color1);
+    
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    
+    overflow:hidden;
+}
+
+
+.nav .nav-item .active{
+    
+    background-color: transparent;
+    color:var(--color7);
+    /* color:white; */
+    /* border-color:var(--color7);
+    
+    background-color:var(--color7); */
+   
+   /* box-shadow:0 0 7px var(--color7),
+    0 0 12px var(--color7),
+    0 0 15px var(--color7);*/
+    
+    
+}
+
+
+.nav .nav-item .nav-link:hover{
+    color:var(--color7);
+    /* border-color:var(--color7);
+    background-color:var(--color7); */
+  
+   
+   /* box-shadow:0 0 7px var(--color7),
+    0 0 12px var(--color7),
+    0 0 15px var(--color7);
+    color:white; */
+}
+
+/* .nav .nav-item .nav-link::before{
+    content:'';
+    position:absolute;
+    top:-110px;
+    right:50%;
+    left:40%;
+    height:700%;
+    width:10px;
+    background-color:var(--color7);
+   
+    
+    animation: rotate 3s linear infinite;
+    
+}
+.nav .nav-item .nav-link:hover::before{
+    width:120%;
+}
+
+.nav .nav-item .nav-link::after{
+    content:'';
+    position:absolute;
+    background-color:var(--color1);
+   
+    inset:2px;
+    
+    
+}
+.nav .nav-item .nav-link:hover::after{
+background-color: var(--color7);
+
+}
+.nav .nav-item .active::after{
+    background-color: var(--color7);
+
+}
+.nav .nav-item .nav-link span{
+    position: relative;
+    z-index:1;
+     */
+/* } */
+/* .nav a{
+    font-size:12px;
+} */
+.dropdown-header{
+    color:var(--color7);
+    font-size:13px;
+}
+.dropdown-item{
+    font-size:13px;
+}
+ .dropdown-item:hover{
+    background-color:var(--color8);
+    color:var(--color7);
+}
+ .dropdown-item .active{
+    background-color:var(--color10);
+    color:white;
+}
+.dropdown-item:active{
+    background-color:var(--color7);
+    color:white;
+}
+@media (min-width:700px){
+    .nav-item:hover .dropdown-menu{
+       
+            display:block;
+      
+    }
+}
+
+
+.menu:hover{
+    background-color:var(--color7);
+   /* box-shadow:0 0 5px var(--color7),
+   0 0 15px var(--color7),
+   0 0 25px var(--color7); */
+    color:black;
+    border-radius:50px;
+}
+
+header .btn{
+    border-radius:50px;
+    border:transparent;
+    background:transparent;
+    font-weight:900;
+    font-size: 15px;
+    color:white;
+}
+@media (max-width:600px){
+.bar .show{
+    width:80%;
+}
+.bar .offcanvas-backdrop{
+    width:80%;
+}
+}
+@media (max-width:300px){
+
+    .bar .show{
+        width:70%;
+    }
+    .bar .offcanvas-backdrop{
+        
+        width:80%;
+    }
+ 
+
+    }
+.offcanvas .list-group .list-group-item {
+    /* background-color:rgb(33, 37, 41); */
+    color:black;
+    border-color: transparent;
+    font-size:13px;
+   
+}
+.offcanvas .list-group .list-group-item:hover{
+    border-radius:3px;
+    color:var(--color7);
+    background-color:var(--color8);
+
+   
+}
+
+.offcanvas .list-group .list-group-item:active{
+    border-radius:3px;
+    color:white;
+    background-color:var(--color7);
+    
+
+   
+}
+.offcanvas .list-group .active{
+    color:white;
+    background-color:var(--color7);
+    border: 1px solid var(--color7);
+    border-radius:3px;
+    /* box-shadow: inset 0 0 5px var(--color7),
+    0 0 5px var(--color7),
+    inset 0 0 15px var(--color7),
+    0 0 15px var(--color7); */
+}
+
+
+
+
+@media (max-width:600px){
+    .logo img{
+        height:70px;
+        width:70px;
+    }
+    .college-title{
+        font-weight: 500;
+        font-size: 12px;
+       
+    }
+    .main-title{
+        font-size:15px;
+        font-weight:800;
+    }
+}
+@keyframes shine{
+    0%{
+        background-position:0%;
+    }
+    25%{
+        background-position:50%;
+    }
+    50%{
+        background-position:75%
+    }
+    100%{
+        background-position:100%;
+    }
+}
+@keyframes gradient{
+    0%{
+        background-position:0%;
+    }
+    25%{
+        background-position:50%;
+    }
+    50%{
+        background-position:100%
+    }
+    100%{
+        background-position:0%;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
+/**********FOOTER**********/
+footer{
+    color:white;
+    font-size:12px;
+}
+.bgcw .title{
+    font-weight:700;
+    font-size:15px;
+    background: rgb(59,252,248);
+background: linear-gradient(62deg, rgba(59,252,248,1) 11%, rgba(160,50,244,1) 45%, rgba(251,15,101,1) 69%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.bgcw p{
+    color:rgb(162, 160, 195);
+}
+.bgcw p a{
+    color:rgb(162, 160, 195);
+    text-decoration:none;
+}
+.bgcw p a:hover{
+    color:white;
+    text-decoration:underline;
+
+}
+.heading{
+    font-weight:500;
+    margin-bottom:12px;
+    font-size:13px;
+
+}
+.f-item a{
+    text-decoration: none;
+    color:rgb(162, 160, 195);
+}
+.f-item a:hover{
+   
+    color:white;
+    text-decoration:underline;
+}

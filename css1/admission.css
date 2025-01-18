@@ -1,0 +1,24 @@
+.admission{
+    padding:3px;
+  }
+  
+  .admission h4{
+      font-family: "Sofia", sans-serif;
+      font-size:30px;
+      text-shadow: 3px 3px 3px #ababab;
+    }
+    .admission #htag{
+      color:rgb(162, 112, 209);
+      font-family: "Audiowide", sans-serif;
+      
+    }
+    .admission h3{
+      color:rgb(162, 112, 209);
+    }
+    .admission p{
+      font-size: large;
+    }
+    .admission #h3tag{
+      font-family: "Audiowide", sans-serif;
+    }
+    

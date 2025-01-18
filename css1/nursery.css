@@ -1,0 +1,20 @@
+.nursery h3{
+    font-style: italic;
+    color:rgb(61, 2, 112)   ;
+}
+/* .nursery #htag{
+    color: rgb(246, 240, 248);
+    color: rgb(246, 240, 248);
+     background: rgb(85,19,117); 
+background: linear-gradient(90deg, rgba(85,19,117,0.9752275910364145) 28%, rgba(39,37,219,1) 50%, rgba(85,19,117,1) 71%); 
+} */
+
+.nursery p{
+    font-size:larger;
+    text-indent:2%;
+    margin-top: 2px;
+
+}
+.nursery ul li{
+    text-indent: 5%;
+}

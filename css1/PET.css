@@ -1,0 +1,12 @@
+.pet{
+    padding: 4px;
+}
+.pet h3{
+    font-family: "Trirong", serif;
+    color:rgb(139, 52, 125);
+}
+.pet h4{
+    font-family: "Trirong", serif;
+    text-shadow: 3px 3px 3px #ababab;
+    color:rgb(139, 52, 125);
+}

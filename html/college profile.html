@@ -1,0 +1,99 @@
+
+
+
+<div class="container" >
+    <h5>validation form</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit quod culpa quos molestias facere! Dolorum debitis minus nostrum illo.</p>
+ <hr>
+ <span class="d-none text-danger" id="err"> Please enter the required field</span>
+ <form id="form1">
+    <div class="row">
+        <div class="form-label">customer name<i style="color:red;">*</i></div>
+        <div class="col-3">
+            <select class="form-select " id="cname">
+                <option value="" disabled hidden selected>Title</option>
+                <option value="MS">MS</option>
+                <option value="MRS">MRS</option>
+                <option value="MR">MR</option>
+              </select>
+        </div>
+        <div class="col mb-3">
+                <input type="text" class="form-control " id="cname" placeholder="First Name">
+        </div>
+        <div class="col mb-3 ">
+            
+                <input type="text" class="form-control" id="cname" placeholder="Last Name">
+              </div>
+    </div>
+    <div class="address">
+        <div class="form-label">customer Address<i style="color:red;">*</i></div>
+    <div class="row mb-3">
+        <input type="text" class="form-control" id="address" placeholder="Street Address"> 
+    </div>
+    <div class="row mb-3">
+        <input type="text" class="form-control" id="address" placeholder="Street Address Line 2"> 
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <input type="text" class="form-control" id="address" placeholder="City"> 
+        </div>
+        <div class="col mb-3">
+            <input type="text" class="form-control" id="address" placeholder="Region"> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <input type="text" class="form-control pin" id="address"  maxlength="6"  placeholder="postal/Zip code"> 
+        </div>
+        <div class="col mb-3"> 
+            <select  class="form-select" id="address">
+                <option value="" disabled hidden selected>Country</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+              </select>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <div class="form-label">customer Phone</div>
+            <input type="text" class="form-control" id="phone" maxlength="10"  placeholder="### ### ####"> 
+        </div>
+   
+        <div class="col mb-3">
+            <div class="form-label">Customer Fax</div>
+            <input type="text" class="form-control" id="fax"  maxlength="10"  placeholder="### ### ####"> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+            <div class="form-label">customer Dateof Birth</div>
+            <input type="date" class="form-control " id="exampleFormControlInput1" placeholder="mm/dd/yy"> 
+        </div>
+        <div class="col mb-3">
+            <div class="form-label">customer ID/Email</div>
+            <input type="email" class="form-control " id="exampleFormControlInput1" placeholder=""> 
+        </div>
+
+    </div>
+    <p>All customer inforamation will be kept with descretipn and will not be used for other marketing or advertistment purpose without customer approval</p>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="true" id="checkbox"  >
+        <label class="form-check-label" for="flexCheckChecked">
+I allow my information to be used for future campaigns
+        </label>
+      </div>
+
+<div class="row-auto justify-content-center">
+    <button class="btn btn-success" type="submit" id="submit">send information
+
+    </button>
+</div>
+</div>
+
+ </form>
+</div>
+
+

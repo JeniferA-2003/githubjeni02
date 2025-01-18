@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+.autonomy .container-fluid h2{
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(25,110,161,1) 50%, rgba(9,9,121,1) 75%, rgba(2,0,36,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* background:var(--color1); */
+}
+.autonomy .clg-heading{
+    font-family: 'Charm', cursive;
+    text-align: center;
+    color:rgb(90, 90, 90);
+    font-size: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    text-shadow: #000000 0.6;
+}
+.autonomy .sub-title{
+    font-weight: bold;
+    padding-left: 30px;
+    color: rgb(29, 91, 185);
+}
+.autonomy .sub-para{
+    padding: 10px 30px;
+    font-size: 20px;
+ 
+}
+.autonomy ul {
+    padding-left: 100px;
+    font-size: 20px;
+}
+.autonomy .table-title{
+    text-align: center;
+    font-weight: bold;
+}
+.autonomy table,th,td{
+    border-bottom:1px solid black;
+    text-align: center;
+}
+.autonomy tr:nth-child(even){
+    background-color: #d1cfcf;
+}
+.autonomy .tables{
+  margin: 0 auto;
+
+
+}
+.autonomy th{
+    background-color: rgb(71, 112, 174);
+    color: white;
+}
+

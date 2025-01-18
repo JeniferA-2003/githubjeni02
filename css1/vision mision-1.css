@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya:wght@500&display=swap');
+.vision-mission .vismis h1{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: rgb(0, 0, 0);
+}
+.vision-mission .row{
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+
+.vision-mission .col-sm-6{
+    text-align: center;
+    align-content: center;
+}
+.vision-mission .topic{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    text-decoration: underline rgb(134, 134, 134);
+}
+.vision-mission .word2{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+   font-weight: bold;
+
+
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+  animation: mymove 1s ease-in-out;
+  animation-delay:0.5s;
+}
+.vision-mission .word1{
+    font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+    animation: mymoves 1s ease-in-out;
+  animation-delay:0.5s;
+
+}
+@keyframes mymoves {
+    from {right: -200px;}
+  to {right: 0px;}
+  }
+
+
+  @keyframes mymove {
+    from {left: -200px;}
+  to {left: 0px;}
+  }
+
+
+

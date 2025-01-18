@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#cardbox{
+   
+    height: 280px;
+    width: 300px;
+    margin: 60px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px;
+}
+.cardbox card-body h5{
+    font-weight: bold;
+}
+.card-body ul li{
+    color: rgb(97, 18, 18);
+}
+#location-btn:hover{
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+#head h4{
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align:center;
+    font-size:35px;
+    color:var(--color10);
+}
+
+    

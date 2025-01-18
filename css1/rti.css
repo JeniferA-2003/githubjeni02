@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow:ital,wght@0,800;1,200;1,400&family=Charm&family=Kaushan+Script&family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@1,100;1,400&display=swap');
+.rti .main h2{
+    font-family: 'Charm', cursive;
+    color: rgb(107, 20, 174);
+   
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   margin-top:10px;
+}
+.rti .main p{
+       margin-left: 30px;
+   padding-left: 15px;
+
+
+}
+.rti .main ol li{
+   
+    margin-left: 30px;
+}
+.rti .main ul li{
+    list-style: none;
+    color: rgb(5, 5, 109);
+    font-size:13px;
+     
+}
+
+
+.rti .fa-brands{
+    padding:  8px;
+    font-size: 13px;
+   
+}
+.rti .head1{
+   
+    padding-top: 10px;
+    margin-left: 30px;
+    color: rgb(107, 20, 174);
+}
+
+
+.rti address{
+    padding-top: 10px;
+    margin-left: 30px;
+}
